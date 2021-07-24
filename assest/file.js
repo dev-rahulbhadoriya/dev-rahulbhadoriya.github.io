@@ -28,5 +28,5 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 10000
-  });
+    delay: 3000
+  });12
