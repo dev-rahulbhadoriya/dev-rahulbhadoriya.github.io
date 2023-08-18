@@ -1,0 +1,157 @@
+.about {
+  background: var(--bg2);
+  transition: 1s ease;
+}
+
+.about__item {
+  transition: 0.5s ease;
+  background: var(--bg);
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+  .about__item-img {
+    text-align: center;
+    img {
+      width: 150px;
+      height: 120px;
+      margin: 10px 0;
+    }
+  }
+
+  .about__item-heading {
+    color: var(--black);
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+    }
+    .about__item-para {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        width: 90%;
+        height: auto;
+      }
+    }
+  }
+
+  &:hover {
+    transition: 0.3s ease;
+    transform: translateY(-0.6%);
+  }
+}
+
+.about__item-details {
+  h5 {
+    color: var(--black);
+    font-size: 17px;
+  }
+  .about__item-section-2 {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+.venture {
+  color: var(--black);
+  padding: 50px 0;
+  .venture__heading {
+    font-size: 35px;
+    font-family: "Taviraj", serif;
+    transition: 0.8s ease;
+
+    @media screen and (max-width: "392px") {
+      font-size: 38px;
+    }
+    @media screen and (max-width: "344px") {
+      font-size: 35px;
+    }
+    @media screen and (max-width: "274px") {
+      font-size: 32px;
+    }
+    @media screen and (max-width: "254px") {
+      font-size: 30px;
+    }
+  }
+  .container {
+    width: 80%;
+
+    .venture__item {
+      background: var(--bg);
+      height: 100%;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+      transition: 0.5s ease;
+      .venture__item-logo {
+        img {
+          width: 300px;
+          padding: 10px;
+          transition: 0.8s ease;
+          @media screen and (max-width: 540px) {
+            width: 250px;
+          }
+          @media screen and (max-width: 460px) {
+            width: 220px;
+          }
+          @media screen and (max-width: 420px) {
+            width: 200px;
+          }
+          @media screen and (max-width: 385px) {
+            width: 180px;
+          }
+          @media screen and (max-width: 335px) {
+            width: 150px;
+          }
+          @media screen and (max-width: 315px) {
+            width: 130px;
+          }
+        }
+
+        .blur {
+          filter: blur(5.5px);
+        }
+      }
+      .venture__item-about {
+        span {
+          user-select: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          background: #ebf5ff;
+          padding: 8px;
+          border-radius: 10px;
+          transition: 0.5s ease;
+          a {
+            color: #4489db;
+            text-decoration: none;
+          }
+
+          @media screen and (max-width: 385px) {
+            font-size: 12px;
+          }
+          @media screen and (max-width: 335px) {
+            font-size: 10px;
+          }
+        }
+      }
+      &:hover {
+        transition: 0.3s ease;
+        transform: translateY(-0.6%);
+      }
+      @media screen and (max-width: 385px) {
+        padding: 30px;
+      }
+      @media screen and (max-width: 335px) {
+        padding: 20px;
+      }
+      @media screen and (max-width: 315px) {
+        padding: 20px;
+      }
+    }
+  }
+}
