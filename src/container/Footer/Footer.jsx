@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-12 text-center">
-                    <p className="footer__copy">Copyright &copy; {year} Sahib Singh</p>
+                    <p className="footer__copy">Copyright &copy; {year} Rahul Singh Bhadoriya</p>
                 </div>
             </div>
         </div>
