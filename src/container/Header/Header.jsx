@@ -12,9 +12,9 @@ const Header = () => {
                 <div >
                 <h6 className="header__hello">Hello.  I'm</h6>
                 <h1 className="header__intro">Rahul Singh Bhadoriya</h1>
-                <p className="header__list">
+                {/* <p className="header__list">
                   <b className="tags">&lt;</b>He/Him <b className="tags">/&gt;</b>
-                </p>
+                </p> */}
                 </div>
               </div>
             </div>
