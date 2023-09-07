@@ -50,7 +50,7 @@ const about = [
     img: "https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/nitj-svg.png?raw=true",
     name: "Devops",
     description:
-      "I have two years of hands-on DevOps experience, coupled with my adeptness in cloud services from Azure, GCP, and AWS, along with a deep understanding of Kubernetes, have shaped me into a versatile professional capable of navigating the intricate interplay between development and operations. As I look ahead, I'm excited to further refine my skills, explore emerging technologies, and contribute to the ever-evolving landscape of modern software delivery..",
+    "I have two years of practical DevOps experience, and this, together with my proficiency in cloud services from Azure, GCP, and AWS, along with a thorough understanding of Kubernetes, have turned me into a versatile professional capable of navigating the complex interactions between development and operations. I'm eager to develop my abilities further, investigate cutting-edge technologies, and contribute to the ever-changing landscape of contemporary software delivery as I look to the future. ",
     h1Array: ["Information Technology"],
     h2: "Things I Do:",
     h2Array: [

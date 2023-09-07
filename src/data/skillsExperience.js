@@ -1,11 +1,7 @@
 const skill = [
   {
-    key: 1,
-    skill: "devicon-c-plain-wordmark colored",
-  },
-  {
     key: 2,
-    skill: "devicon-cplusplus-plain colored",
+    skill: "devicon-webpack-plain-wordmark colored",
   },
   {
     key: 3,
@@ -13,11 +9,11 @@ const skill = [
   },
   {
     key: 4,
-    skill: "devicon-java-plain-wordmark colored",
+    skill: "devicon-kubernetes-plain-wordmark colored",
   },
   {
     key: 5,
-    skill: "devicon-selenium-original colored",
+    skill: "devicon-docker-plain-wordmark colored",
   },
   {
     key: 6,
@@ -69,7 +65,7 @@ const skill = [
   },
   {
     key: 18,
-    skill: "devicon-heroku-plain-wordmark colored",
+    skill: "devicon-azure-plain-wordmark colored",
   },
   {
     key: 19,
@@ -81,7 +77,15 @@ const skill = [
   },
   {
     key: 21,
-    skill: "devicon-canva-original colored",
+    skill: "devicon-bitbucket-original-wordmark colored",
+  },
+  {
+    key: 23,
+    skill: "devicon-typescript-plain colored",
+  },
+  {
+    key: 24,
+    skill: "devicon-googlecloud-plain-wordmark colored",
   },
 ];
 
