@@ -10,11 +10,9 @@ const About = () => {
       <div className="container">
         <h2 className="section__heading text-center py-5">About Me</h2>
         <div className="row justify-content-center">
-
           {
             React.Children.toArray(
               about.map((item) => {
-
                 return (
                   <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
                     <div className="about__item mx-2 py-4 px-2">

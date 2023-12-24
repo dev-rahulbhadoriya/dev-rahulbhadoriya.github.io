@@ -19,12 +19,12 @@ import googleForms from '../assets/projects/google-forms.png';
 import portfolioGen from '../assets/projects/portfolio.png';
 
 // Education
-import nitjLogo from '../assets/education/nitj.png';
-import asmLogo from '../assets/education/asm.png';
-import mspLogo from '../assets/education/msp.png';
+// import nitjLogo from '../assets/education/nitj.png';
+// import asmLogo from '../assets/education/asm.png';
+// import mspLogo from '../assets/education/msp.png';
 
 
 
 export default {
-    profile, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen, nitjLogo, asmLogo, mspLogo
+    profile, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen
 }
